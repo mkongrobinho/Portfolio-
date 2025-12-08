@@ -1,0 +1,115 @@
+h1{
+
+  color: blue;
+}
+body{
+  background-color: cornflowerblue;
+}
+.img{
+ border: 5px solid #333; /* add border */
+      position: absolute;  /* position absolutely */
+      top: 50px;  /* adjust top position */
+      left: 50px;  /* adjust left position */
+      z-index: 1;  /* bring to front */
+}
+    /* Hero Section */
+    .hero {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 1200px;
+      margin: 60px auto;
+      padding: 0 50px;
+      flex-wrap: wrap;
+    }
+
+    .hero-left {
+      flex: 1;
+      min-width: 300px;
+    }
+
+    .hero-left h1 {
+      font-size: 3.5rem;
+      font-weight: 700;
+      color: #0a2342;
+      line-height: 1.2;
+      margin-bottom: 20px;
+    }
+
+    .hero-left p {
+      font-size: 1.1rem;
+      color: #6c757d;
+      margin-bottom: 30px;
+      line-height: 1.6;
+    }
+
+    .hero-buttons {
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      padding: 12px 24px;
+      font-size: 1rem;
+      border-radius: 8px;
+      border: none;
+      cursor: pointer;
+      font-weight: 600;
+      transition: all 0.3s;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .btn-primary {
+      background-color: #007bff;
+      color: white;
+    }
+
+    .btn-primary:hover {
+      background-color: #0056b3;
+      transform: translateY(-2px);
+    }
+
+    .btn-secondary {
+      background-color: transparent;
+      color: #007bff;
+      border: 2px solid #007bff;
+    }
+
+    .btn-secondary:hover {
+      background-color: #007bff;
+      color: white;
+    }
+
+    .hero-right {
+      flex: 1;
+      position: relative;
+      text-align: center;
+      min-width: 300px;
+      margin-top: 40px;
+    }
+
+    .hero-right img {
+      width: 100%;
+      max-width: 500px;
+      border-radius: 30px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+   }
+    /* Desktop and large screens */
+    @media (min-width: 1200px) {
+      /* styles for large screens*/
+    }
+    /* Tablets and medium screens */
+    @media (max-width: 1199px) and (min-width: 768px) {
+      /* styles for medium screens*/
+    }
+    /* Mobile phones and small screens */
+    @media (max-width: 767px) {
+      /* styles for small screens*/
+    }
+    .container {
+      width: 80%;
+      min-width: 1200px;
+      margin: 0 auto;
+    }

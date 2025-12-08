@@ -1,0 +1,26 @@
+h1{
+  color: blue;
+}
+body{
+  background-color: cornflowerblue;
+}
+img{
+  border-radius: 2000px;
+}
+ /* Desktop and large screens */
+    @media (min-width: 1200px) {
+      /* styles for large screens*/
+    }
+    /* Tablets and medium screens */
+    @media (max-width: 1199px) and (min-width: 768px) {
+      /* styles for medium screens*/
+    }
+    /* Mobile phones and small screens */
+    @media (max-width: 767px) {
+      /* styles for small screens*/
+    }
+    .container {
+      width: 80%;
+      min-width: 1200px;
+      margin: 0 auto;
+    }
