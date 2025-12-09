@@ -27,4 +27,4 @@ git clone <url> -- to clone my repo
 ```Javascript
 console.log(``HELLO WORLD``)
 ```
-THE AI MODEL WAS PROVIDED BY [yvesdylane](<https://github.com/yvesdylane
+THE AI MODEL WAS PROVIDED BY [yvesdylane](https://github.com/yvesdylane)
