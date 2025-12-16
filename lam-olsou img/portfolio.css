@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+body{
+    
+    padding-left: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    color: rgba(223, 223, 223, 0.559);
+    background-color: rgb(33, 31, 31);
+    background-image: url(lam-olsou\ img/1363894.jpeg);
+    background-repeat:  no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+  
+}
+#bold{
+    font-weight: 900;
+    }
+h1{
+
+    text-align: center;
+    text-shadow: 3px 3px 5px #a5760f, -3px -3px 5px blue;
+
+}
+#head{
+
+    color: #04b8fac8;
+
+}
+#copy{
+  
+  display: flex;
+  align-items: flex-end;
+    
+    
+}
+
+#img{
+    height: 400px;
+    width: 650x;
+    margin-left: 200px;
+}
