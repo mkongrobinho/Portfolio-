@@ -1,19 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./CSS/style1.css">
-    
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+    <title>Ignatius Portfolio</title>
 </head>
 <body>
-    <h1>Welcome To Our team's Portfolio</h1>
-    <p>Our team consist of inspired,innovative,hard working and junior developers looking forward 
-        to impacting the world with tech and exploring the field of tech. <br>
-        This team consist of 5 junior developers all fixed with one goal in life
-    </p>
-    
-    <img src="./images/Robinho.jpg" height="100px" width="100px">     
+    <!-- Navigation Bar -->
+    <nav style="display:flex;justify-content:space-between;align-items:center;padding:20px 40px;background:#111;color:#fff;font-size:18px;">
+        <div style="font-size:22px;font-weight:bold;">Ignatius Portfolio</div>
+        <div style="display:flex;gap:25px;">
+            <a href="/" style="color:white;text-decoration:none;">Home</a>
+            <a href="https://github.com" target="_blank" style="color:white;text-decoration:none;">
+                <i class="fa-brands fa-github"></i> Github
+            </a>
+            <a href="https://linkedin.com" target="_blank" style="color:white;text-decoration:none;">
+                <i class="fa-brands fa-linkedin"></i> LinkedIn
+            </a>
+            <a href="mailto:oscar@gmail.com" style="color:white;text-decoration:none;">
+                <i class="fa-solid fa-envelope"></i> Email
+            </a>
+        </div>
+    </nav>
+    <main>
+
+    <!-- Section 1:Hero -->
+
+    <section class="Hero-section">
+        <div class="text">
+        <div style="max-width:50%;">
+            <h1 style="font-size:45px;margin-bottom:10px;">Hi, I'm Ignatius</h1>
+            <p style="font-size:18px;line-height:1.6;">
+                I am a Level 1 Software Engineering student at YIBS Simbock.<br>
+                My dream is to become a strong developer alongside my team.<br>
+                We are upcoming developers preparing to build amazing solutions.
+            </p>
+
+            <div style="margin-top:20px;display:flex;gap:20px;">
+                <a href="#Skills" style="padding:10px 20px;background:#111;color:#fff;text-decoration:none;border-radius:5px;">Skills</a>
+                <a href="#Testimony" style="padding:10px 20px;background:#111;color:#fff;text-decoration:none;border-radius:5px;">Testimony</a>
+                <a href="#Contact" style="padding:10px 20px;background:#111;color:#fff;text-decoration:none;border-radius:5px;">Contact</a>
+            </div>
+        </div>
+        <div class="headshot"></div>
+        </section>
+    </main>
+
+        <search class="about " id="about">
+            
+
+        <!-- Image -->
+        <div>
+            <img src="Dofoto_20250605_200756109.jpg" alt="" style="width:200px;height:250px;border-radius:10px;object-fit:cover;">
+        </div>
+
+        <div class="about-content">
+             <h2 class="heading"> About <span>Me</span></h2>
+             <h3>Passionate Developer </h3> 
+             <p>I am Experiencing more in this field and designing still learning to go far <br>
+                Atleast everyday blessed day i most write a code before going to bed </p>
+                <a href="#" class="btn" >Read more </a>
+
+        </div>
+    </section>
+
+
+    <!-- Skills Section -->
+    <section id="Skills" style="padding:50px 40px;background:#f5f5f5;">
+        <h2 style="font-size:32px;margin-bottom:20px;">My Skills</h2>
+        <ul style="font-size:18px;line-height:1.8;">
+            <li>HTML & CSS</li>
+            <li>Basic JavaScript</li>
+            <li>Team Collaboration</li>
+            <li>Beginner Problem Solving</li>
+        </ul>
+    </section>
+
+    <!-- Testimony Section -->
+    <section id="Testimony" style="padding:50px 40px;">
+        <h2 style="font-size:32px;margin-bottom:20px;">Testimony</h2>
+        <p style="font-size:18px;line-height:1.6;">
+            I am passionate about improving my skills every day. My journey as a developer is guided by dedication, 
+            teamwork, and the desire to build impactful software solutions.
+        </p>
+    </section>
+        
+    <!-- Contact Section -->
+    <section id="Contact" style="padding:50px 40px;background:#e2e7ee;">
+        <h2 style="font-size:32px;margin-bottom:20px;">Contact Me</h2>
+        <form action="" method="post">
+            <!--form fiel go here-->
+        <p style="font-size:18px;">Email: ignatiusngeyen@gmail.com</p>
+        <p style="font-size:18px;">Phone: +237 651870326</p>
+        <p style="font-size: 18px;">Adress: Simbock-Yaounde</p>
+        <p style="font: size 19px; ">Age: 20</p>
+        <p style="font-size: 20px ;">Gender: Male</p>
+        </form>
+    </section>
+     
+
 </body>
 </html>
